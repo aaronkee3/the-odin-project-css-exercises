@@ -19,6 +19,8 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -47,10 +49,6 @@ body {
   display: flex;
 }
 
-.sidebar {
-  flex-shrink: 0;
-  padding: 16px;
-}
 
 ul {
   list-style-type: none;
